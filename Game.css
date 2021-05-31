@@ -1,0 +1,75 @@
+body{
+    background-color: #123248;
+   
+}
+
+.bg-color{
+    background-color: #123248;
+    
+}
+
+.text-shadow{
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 2px 7px 55px black;
+}
+
+.nen{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.img_header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.content_header{
+    padding-top: 4%;
+    position: absolute;
+    z-index: 3;
+}
+
+#font_style_text_vid{
+    font-family: monospace;
+    font-size: 60px;
+    
+}
+.text_img{
+    opacity: 0;
+
+}
+
+.nen_cuoi{
+    border-top: 1px dashed black ;
+}
+
+.hover{
+    transition: 0.4s;
+   
+}
+
+.hover:hover{
+    cursor: pointer;
+    transform: scale(0.94);
+    transition: 0.4s;
+}
+
+.card{
+    background-color: #123248;
+    border: none;
+    color: white;
+}
+
+.card-img-top{
+    border-radius: 20px;
+    height: 350px;
+
+}
