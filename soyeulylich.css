@@ -1,0 +1,67 @@
+body{
+    background-color: #EAEDEE;
+    font-family: cursive;
+}
+
+.nen{
+    position: relative;
+    height:700px;
+}
+
+
+.backg{
+    width: 100%;
+    background-color: #B1C5CE;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.img_header{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+#about{
+    font-weight: bold;
+
+}
+
+.info_table{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.nen_cuoi{
+    background-color: #B1C5CE;
+    bottom: 0;
+}
+
+.hoc_van{
+    display: flex;
+    justify-content: space-between;
+}
+.edu{
+    display: flex;
+}
+.icon_parent{
+    position: relative;
+}
+
+.add_button{
+    position: absolute;
+}
+
+.minus_buron{
+    position: absolute;
+}
+.text{
+    display: none;
+}
+
+
+
