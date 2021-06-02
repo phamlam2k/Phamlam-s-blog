@@ -52,6 +52,7 @@ body{
 .bg_list_color{
     background-color: #FEFFF1;
     border: none;
+    width: 100%;
 }
 
 .card-img-top{
