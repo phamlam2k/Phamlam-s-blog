@@ -36,24 +36,39 @@ body{
 
 
 
-.nen_cuoi{
-    background-color: #B1C5CE;
-    bottom: 0;
+/*Kĩ năng cá  nhân*/
+
+.text_design{
+    
+    border-bottom: 1px solid black;
+
 }
 
 .hoc_van{
+    height: 40px;
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
     background-color: #B1C5CE;
 }
+
 .edu{
     display: flex;
+    margin-left: 2%;
+}
+.edu i{
+    line-height: 40px;
 }
 
+.edu h4{
+    line-height: 40px;
+}
 /*Tab 1*/
 .icon_parent{
     position: relative;
+    line-height: 40px; 
+    margin-right: 2%;
+    cursor: pointer;
 }
 
 .add_button{
@@ -71,6 +86,9 @@ body{
 /*Tab 2*/
 .icon_parent_2{
     position: relative;
+    line-height: 40px; 
+    margin-right: 2%;
+    cursor: pointer;
 }
 
 .add_button_2{
@@ -88,6 +106,9 @@ body{
 /*Tab 3*/
 .icon_parent_3{
     position: relative;
+    line-height: 40px; 
+    margin-right: 2%;
+    cursor: pointer;
 }
 .add_button_3{
     position: absolute;
@@ -101,3 +122,7 @@ body{
 }
 
 
+.nen_cuoi{
+    background-color: #B1C5CE;
+    bottom: 0;
+}
