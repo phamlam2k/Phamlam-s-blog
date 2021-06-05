@@ -10,21 +10,20 @@ function Validate(options){
     },700);
     
     $(back_to_top).on("click",function () { 
-        console.log("ok");
         $('html,body').animate({scrollTop: 0},1000);
     });
 
     $(window).scroll(function (e) { 
         var pos_body = $('html,body').scrollTop();
-        console.log(pos_body);
+       
         if(pos_body >= 600 ){
             $(new_info).css("visibility", "visible");
-            $(new_info).css("transform", "translateX(35%)");     
+            $(new_info).css("transform", "translateX(30%)");     
         }
         else if(pos_body < 700){
             $(new_info).css("visibility", "hidden");
-            $(new_info).css("transform", "translateX(-35%)");  
+            $(new_info).css("transform", "translateX(-30%)");  
         }
-       
+        
     });
 }
