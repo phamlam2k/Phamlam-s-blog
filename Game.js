@@ -17,7 +17,7 @@ function Validate(options){
     $(window).scroll(function (e) { 
         pos_body = $('html,body').scrollTop();
         console.log(pos_body);
-        if(pos_body > 1100 ){
+        if(pos_body > 1050 ){
             $(new_info).css("visibility", "visible");
             $(new_info).css("transform", "translateX(30%)");     
         }

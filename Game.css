@@ -151,6 +151,12 @@ body{
     padding-top: 5%;
 }
 
+.tin_phu_parent{
+    border: 1px solid black;
+    background-color: #284d66;
+    height: 610px;
+}
+
 @media all and (max-width: 980px) {
     .tin_phu_parent{
         display: none;
