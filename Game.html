@@ -8,6 +8,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="Game.css">
     <title>PhamLam's blog</title>
 
@@ -95,13 +97,41 @@
                     <div class="col-md-4 hover_dad" style="padding : 0">
                       <a href="https://store.steampowered.com/app/550/Left_4_Dead_2/">
                         <img class="hover" src="PictureofGame/Left_4_Dead_2_UK_cover.png" style="height: 350px; width: 100%; " alt="">
-                      
                       </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="swiper-container mySwiper mt-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="PictureofGame/Pictureoflogo/tencent.jpg"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="PictureofGame/Pictureoflogo/212d1b4d8d3f8ec990eb405e735b3f8d.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="PictureofGame/Pictureoflogo/Screenshot_14.png"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="PictureofGame/Pictureoflogo/ea_tile_ea_stock_headers_04_layers_16x9.png.adapt.crop16x9.431p.png"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="PictureofGame/Pictureoflogo/stickers-konami-logo.jpg"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="PictureofGame/Pictureoflogo/20101710rockstar.jpg"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="PictureofGame/Pictureoflogo/playstation-logo.jpg" />
+        </div>
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+  </div>
+
+    
     <div class="container mt-5">
       <div class="row">
           <div class="col-md-12 ">
@@ -109,7 +139,6 @@
             
           </div>
       </div>
-
     </div>
     
 
@@ -266,11 +295,29 @@
   </body>
   <script type= "text/javascript" src="Game.js"></script>
   <script type= "text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
       Validate({
         text_img : ".text_img",
         back_to_top: ".back_to_top",
         new_info : ".new_info"
       });
+      var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+    });
   </script>
 </html>
