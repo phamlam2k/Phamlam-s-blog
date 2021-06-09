@@ -157,7 +157,11 @@ body{
     height: 610px;
 }
 
-@media all and (max-width: 990px) {
+.tinphu_div{
+    height:14%
+}
+
+@media all and (max-width: 1000px) {
     .tin_phu_parent{
         display: none;
     }
