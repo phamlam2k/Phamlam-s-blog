@@ -157,7 +157,7 @@ body{
     height: 610px;
 }
 
-@media all and (max-width: 980px) {
+@media all and (max-width: 990px) {
     .tin_phu_parent{
         display: none;
     }
