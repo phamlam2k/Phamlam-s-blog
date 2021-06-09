@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <title>PhamLam's blog</title>
+    
+    </head>
+    <body>
+    <div class="container">
+        <form>
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-1-12 col-form-label">Mật khẩu</label>
+                <div class="col-sm-1-12">
+                    <input type="text" class="form-control ml-3" name="inputName" id="inputName" placeholder="">
+                    <input type="text" class="form-control" id="mk" style="display:none" value="phamlam2k">
+                </div>
+            </div>
+           
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <a type="submit" id="button"  class="btn btn-primary">Đăng nhập</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    </body>
+
+    <script src="Matkhaulove.js"></script>
+    <script>
+        Validate({
+            inputName : "#inputName",
+            button_click : "#button",
+            mk : "#mk"
+        });
+    </script>
+
+</html>
