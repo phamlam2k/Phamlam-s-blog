@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <!-- Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="World.css">
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      />
+      <title>PhamLam's blog</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md backg navbar-dark fixed-top  header ">
+      <a href="" class="navbar-brand name_brand">PhamLam's blog</a>
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#menu">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item">
+              <a class="nav-link name_brand" href="web.html">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link name_brand" href="webAmnhac.html">Âm nhạc</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link name_brand" href="Game.html">Game</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link name_brand" href="Matkhaulove.html">World</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark dropdown-toggle"  id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                    Thể Thao
+              </a>
+              <div class="dropdown-menu" aria-labelledby="triggerId">
+                <a class="dropdown-item" href="#">Bóng Đá</a>
+                <a class="dropdown-item" href="#">Bóng rổ</a>
+              </div>
+          </li>
+          </ul>
+          
+          <ul class="navbar-nav tab_menu">
+            <li class="nav-item">
+              <a class="nav-link name_brand" href="https://www.facebook.com/phamlam2k/"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link name_brand" href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link name_brand " href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+
+        </div>
+    </nav>
+
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide " id = "slide1">
+          <img src="https://photo2.tinhte.vn/data/attachment-files/2020/01/4875841_andaman_sea_thailand-wallpaper-1920x1080.jpg" alt="">
+          <div class="slide1_child">
+            <h2 id="title_slide1">Trải nghiệm</h2>
+            <p id="text_slide1">Vào trải nghiệm nào các bạn tôi ơi</p>
+          </div>
+        </div>
+        <div class="swiper-slide" id = "slide2">
+          <img src="https://phunugioi.com/wp-content/uploads/2020/02/hinh-anh-thien-nhien-phong-canh-dep.jpg" alt="">
+        </div>
+        <div class="swiper-slide" id = "slide3">
+          <img src="https://tailieufree.net/wp-content/uploads/2018/04/hinh-nen-vinh-ha-long-quang-ninh-dep.jpg" alt="Hạ Long">
+        </div>
+        <div class="swiper-slide" id = "slide4">
+          <img src="https://c.wallhere.com/photos/4b/9b/1920x1080_px_egypt_Filter_pyramid-543480.jpg!d" alt="">
+        </div>
+        <div class="swiper-slide" id = "slide5">
+          <img src="https://img3.thuthuatphanmem.vn/uploads/2019/10/10/hinh-anh-van-ly-truong-thanh-duoi-nang-ruc-ro_103131901.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+    <iframe src="https://discordapp.com/widget?id=852920590548860968&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  </body>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="World.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: true,
+        },
+      });
+      Validate({
+        slide1: "#slide1",
+        title_slide1 : "#title_slide1",
+        text_slide1 : "#text_slide1",
+        
+      });
+    </script>
+  
+ 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+</html>
